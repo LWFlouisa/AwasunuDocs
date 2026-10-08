@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Crystal Docs 1.9.2">
+<meta name="crystal_docs.project_version" content="0.0.1">
+<meta name="crystal_docs.project_name" content="Awalisp">
+
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/doc.js"></script>
+
+  <meta name="repository-name" content="Awalisp">
+  <title>Anos - Awalisp 0.0.1</title>
+  <script type="text/javascript">
+    CrystalDocs.base_path = "";
+  </script>
+</head>
+<body>
+
+<svg class="hidden">
+  <symbol id="octicon-link" viewBox="0 0 16 16">
+    <path fill="currentColor" fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
+  </symbol>
+</svg>
+<input type="checkbox" id="sidebar-btn">
+<label for="sidebar-btn" id="sidebar-btn-label">
+  <svg class="open" xmlns="http://www.w3.org/2000/svg" height="2em" width="2em" viewBox="0 0 512 512"><title>Open Sidebar</title><path fill="currentColor" d="M80 96v64h352V96H80zm0 112v64h352v-64H80zm0 112v64h352v-64H80z"></path></svg>
+  <svg class="close" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 512 512"><title>Close Sidebar</title><path fill="currentColor" d="m118.6 73.4-45.2 45.2L210.7 256 73.4 393.4l45.2 45.2L256 301.3l137.4 137.3 45.2-45.2L301.3 256l137.3-137.4-45.2-45.2L256 210.7Z"></path></svg>
+</label>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="project-summary">
+      <h1 class="project-name">
+        <a href="index.html">
+          Awalisp
+        </a>
+      </h1>
+
+      <span class="project-version">
+        0.0.1
+      </span>
+    </div>
+  </div>
+
+  <div class="search-results hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class=" " data-id="Awalisp/toplevel" data-name="top level namespace">
+      <a href="toplevel.html">Top Level Namespace</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Ana" data-name="ana">
+      <a href="Ana.html">Ana</a>
+      
+    </li>
+  
+  <li class=" current" data-id="Awalisp/Anos" data-name="anos">
+      <a href="Anos.html">Anos</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Anu" data-name="anu">
+      <a href="Anu.html">Anu</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Chana" data-name="chana">
+      <a href="Chana.html">Chana</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Chana/Cemota" data-name="chana::cemota">
+      <a href="Chana/Cemota.html">Cemota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Chana/Cemota/Objet" data-name="chana::cemota::objet">
+      <a href="Chana/Cemota/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Chana/Cemota/Sujet" data-name="chana::cemota::sujet">
+      <a href="Chana/Cemota/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Chana/LType" data-name="chana::ltype">
+      <a href="Chana/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Chana/Numota" data-name="chana::numota">
+      <a href="Chana/Numota.html">Numota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Chana/Numota/Phrase" data-name="chana::numota::phrase">
+      <a href="Chana/Numota/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Chanos" data-name="chanos">
+      <a href="Chanos.html">Chanos</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Chanos/Cemota" data-name="chanos::cemota">
+      <a href="Chanos/Cemota.html">Cemota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Chanos/Cemota/Objet" data-name="chanos::cemota::objet">
+      <a href="Chanos/Cemota/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Chanos/Cemota/Sujet" data-name="chanos::cemota::sujet">
+      <a href="Chanos/Cemota/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Chanos/LType" data-name="chanos::ltype">
+      <a href="Chanos/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Chanos/Numotos" data-name="chanos::numotos">
+      <a href="Chanos/Numotos.html">Numotos</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Chanos/Numotos/Phrase" data-name="chanos::numotos::phrase">
+      <a href="Chanos/Numotos/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Chanu" data-name="chanu">
+      <a href="Chanu.html">Chanu</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Chanu/Cemotu" data-name="chanu::cemotu">
+      <a href="Chanu/Cemotu.html">Cemotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Chanu/Cemotu/Objet" data-name="chanu::cemotu::objet">
+      <a href="Chanu/Cemotu/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Chanu/Cemotu/Sujet" data-name="chanu::cemotu::sujet">
+      <a href="Chanu/Cemotu/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Chanu/LType" data-name="chanu::ltype">
+      <a href="Chanu/LType.html">LType</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Chanu/LType/List" data-name="chanu::ltype::list">
+      <a href="Chanu/LType/List.html">List</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Chanu/Numotu" data-name="chanu::numotu">
+      <a href="Chanu/Numotu.html">Numotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Chanu/Numotu/Phrase" data-name="chanu::numotu::phrase">
+      <a href="Chanu/Numotu/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Deso" data-name="deso">
+      <a href="Deso.html">Deso</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Hikasa" data-name="hikasa">
+      <a href="Hikasa.html">Hikasa</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Hikasa/Cemota" data-name="hikasa::cemota">
+      <a href="Hikasa/Cemota.html">Cemota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Hikasa/Cemota/Objet" data-name="hikasa::cemota::objet">
+      <a href="Hikasa/Cemota/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Hikasa/Cemota/Sujet" data-name="hikasa::cemota::sujet">
+      <a href="Hikasa/Cemota/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Hikasa/LType" data-name="hikasa::ltype">
+      <a href="Hikasa/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Hikasa/Numota" data-name="hikasa::numota">
+      <a href="Hikasa/Numota.html">Numota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Hikasa/Numota/Phrase" data-name="hikasa::numota::phrase">
+      <a href="Hikasa/Numota/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Hikasos" data-name="hikasos">
+      <a href="Hikasos.html">Hikasos</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Hikasos/Cemota" data-name="hikasos::cemota">
+      <a href="Hikasos/Cemota.html">Cemota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Hikasos/Cemota/Objet" data-name="hikasos::cemota::objet">
+      <a href="Hikasos/Cemota/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Hikasos/Cemota/Sujet" data-name="hikasos::cemota::sujet">
+      <a href="Hikasos/Cemota/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Hikasos/LType" data-name="hikasos::ltype">
+      <a href="Hikasos/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Hikasos/Numotos" data-name="hikasos::numotos">
+      <a href="Hikasos/Numotos.html">Numotos</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Hikasos/Numotos/Phrase" data-name="hikasos::numotos::phrase">
+      <a href="Hikasos/Numotos/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Hikasu" data-name="hikasu">
+      <a href="Hikasu.html">Hikasu</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Hikasu/Cemotu" data-name="hikasu::cemotu">
+      <a href="Hikasu/Cemotu.html">Cemotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Hikasu/Cemotu/Objet" data-name="hikasu::cemotu::objet">
+      <a href="Hikasu/Cemotu/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Hikasu/Cemotu/Sujet" data-name="hikasu::cemotu::sujet">
+      <a href="Hikasu/Cemotu/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Hikasu/LType" data-name="hikasu::ltype">
+      <a href="Hikasu/LType.html">LType</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Hikasu/LType/List" data-name="hikasu::ltype::list">
+      <a href="Hikasu/LType/List.html">List</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Hikasu/Numotu" data-name="hikasu::numotu">
+      <a href="Hikasu/Numotu.html">Numotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Hikasu/Numotu/Phrase" data-name="hikasu::numotu::phrase">
+      <a href="Hikasu/Numotu/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/La" data-name="la">
+      <a href="La.html">La</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Le" data-name="le">
+      <a href="Le.html">Le</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Les" data-name="les">
+      <a href="Les.html">Les</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sama" data-name="sama">
+      <a href="Sama.html">Sama</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Sama/Cemota" data-name="sama::cemota">
+      <a href="Sama/Cemota.html">Cemota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sama/Cemota/Objet" data-name="sama::cemota::objet">
+      <a href="Sama/Cemota/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Sama/Cemota/Sujet" data-name="sama::cemota::sujet">
+      <a href="Sama/Cemota/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Sama/LType" data-name="sama::ltype">
+      <a href="Sama/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sama/Numota" data-name="sama::numota">
+      <a href="Sama/Numota.html">Numota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sama/Numota/Phrase" data-name="sama::numota::phrase">
+      <a href="Sama/Numota/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Samos" data-name="samos">
+      <a href="Samos.html">Samos</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Samos/Cemotos" data-name="samos::cemotos">
+      <a href="Samos/Cemotos.html">Cemotos</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Samos/Cemotos/Objet" data-name="samos::cemotos::objet">
+      <a href="Samos/Cemotos/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Samos/Cemotos/Sujet" data-name="samos::cemotos::sujet">
+      <a href="Samos/Cemotos/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Samos/LType" data-name="samos::ltype">
+      <a href="Samos/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Samos/Numotos" data-name="samos::numotos">
+      <a href="Samos/Numotos.html">Numotos</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Samos/Numotos/Phrase" data-name="samos::numotos::phrase">
+      <a href="Samos/Numotos/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Samu" data-name="samu">
+      <a href="Samu.html">Samu</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Samu/Cemotu" data-name="samu::cemotu">
+      <a href="Samu/Cemotu.html">Cemotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Samu/Cemotu/Objet" data-name="samu::cemotu::objet">
+      <a href="Samu/Cemotu/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Samu/Cemotu/Sujet" data-name="samu::cemotu::sujet">
+      <a href="Samu/Cemotu/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Samu/LType" data-name="samu::ltype">
+      <a href="Samu/LType.html">LType</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Samu/LType/List" data-name="samu::ltype::list">
+      <a href="Samu/LType/List.html">List</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Samu/Numotu" data-name="samu::numotu">
+      <a href="Samu/Numotu.html">Numotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Samu/Numotu/Phrase" data-name="samu::numotu::phrase">
+      <a href="Samu/Numotu/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sana" data-name="sana">
+      <a href="Sana.html">Sana</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Sana/Cemota" data-name="sana::cemota">
+      <a href="Sana/Cemota.html">Cemota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sana/Cemota/Objet" data-name="sana::cemota::objet">
+      <a href="Sana/Cemota/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Sana/Cemota/Sujet" data-name="sana::cemota::sujet">
+      <a href="Sana/Cemota/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Sana/LType" data-name="sana::ltype">
+      <a href="Sana/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sana/Numota" data-name="sana::numota">
+      <a href="Sana/Numota.html">Numota</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sana/Numota/Phrase" data-name="sana::numota::phrase">
+      <a href="Sana/Numota/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sanos" data-name="sanos">
+      <a href="Sanos.html">Sanos</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Sanos/Cemotos" data-name="sanos::cemotos">
+      <a href="Sanos/Cemotos.html">Cemotos</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sanos/Cemotos/Objet" data-name="sanos::cemotos::objet">
+      <a href="Sanos/Cemotos/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Sanos/Cemotos/Sujet" data-name="sanos::cemotos::sujet">
+      <a href="Sanos/Cemotos/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Sanos/LType" data-name="sanos::ltype">
+      <a href="Sanos/LType.html">LType</a>
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sanos/Numotos" data-name="sanos::numotos">
+      <a href="Sanos/Numotos.html">Numotos</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sanos/Numotos/Phrase" data-name="sanos::numotos::phrase">
+      <a href="Sanos/Numotos/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sanu" data-name="sanu">
+      <a href="Sanu.html">Sanu</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="Awalisp/Sanu/Cemotu" data-name="sanu::cemotu">
+      <a href="Sanu/Cemotu.html">Cemotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sanu/Cemotu/Objet" data-name="sanu::cemotu::objet">
+      <a href="Sanu/Cemotu/Objet.html">Objet</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Sanu/Cemotu/Sujet" data-name="sanu::cemotu::sujet">
+      <a href="Sanu/Cemotu/Sujet.html">Sujet</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sanu/LType" data-name="sanu::ltype">
+      <a href="Sanu/LType.html">LType</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sanu/LType/List" data-name="sanu::ltype::list">
+      <a href="Sanu/LType/List.html">List</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="Awalisp/Sanu/Numotu" data-name="sanu::numotu">
+      <a href="Sanu/Numotu.html">Numotu</a>
+      
+        <ul>
+  
+  <li class=" " data-id="Awalisp/Sanu/Numotu/Phrase" data-name="sanu::numotu::phrase">
+      <a href="Sanu/Numotu/Phrase.html">Phrase</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Subject" data-name="subject">
+      <a href="Subject.html">Subject</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Ta" data-name="ta">
+      <a href="Ta.html">Ta</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Te" data-name="te">
+      <a href="Te.html">Te</a>
+      
+    </li>
+  
+  <li class=" " data-id="Awalisp/Verb" data-name="verb">
+      <a href="Verb.html">Verb</a>
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1 class="type-name">
+
+  <span class="kind">class</span> Anos
+
+</h1>
+
+
+  <ul class="superclass-hierarchy"><li class="superclass"><a href="Anos.html">Anos</a></li><li class="superclass">Reference</li><li class="superclass">Object</li></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2>
+    <a id="defined-in" class="anchor" href="#defined-in">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Defined in:
+  </h2>
+  
+    
+      AwasunuFull/awasunu_nonlisp.cr
+    
+    <br/>
+  
+
+
+
+
+
+
+
+  <h2>
+    <a id="class-method-summary" class="anchor" href="#class-method-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Class Method Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#kaidokuzaios%28antidote_adjective%29-class-method" class="signature"><strong>.kaidokuzaios</strong>(antidote_adjective)</a>
+        
+          <div class="summary"><p>########################################################################################                                  Pseudo Plural Class Gear                             # ########################################################################################</p></div>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#manfra%28format_adjective%29-class-method" class="signature"><strong>.manfra</strong>(format_adjective)</a>
+        
+      </li>
+    
+      <li class="entry-summary">
+        <a href="#qutarocaderos%28format_adjective%29-class-method" class="signature"><strong>.qutarocaderos</strong>(format_adjective)</a>
+        
+          <div class="summary"><p>########################################################################################                                  Format Of Narrative                                  # ######################################################################################## This refers to a four-frame manga like format styled kind 4-koma, but specialized in  # serious and morbid topics in ki-sho-ten-ketsu in a French dialect.</p></div>
+        
+      </li>
+    
+  </ul>
+
+
+
+  <h2>
+    <a id="macro-summary" class="anchor" href="#macro-summary">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Macro Summary
+  </h2>
+  <ul class="list-summary">
+    
+      <li class="entry-summary">
+        <a href="#define_method%28name%2Ccontent%29-macro" class="signature"><strong>define_method</strong>(name, content)</a>
+        
+      </li>
+    
+  </ul>
+
+
+
+
+
+<div class="methods-inherited">
+  
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+  
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+  
+</div>
+
+
+
+
+  <h2>
+    <a id="class-method-detail" class="anchor" href="#class-method-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Class Method Detail
+  </h2>
+  
+    <div class="entry-detail" id="kaidokuzaios(antidote_adjective)-class-method">
+      <div class="signature">
+        
+        def self.<strong>kaidokuzaios</strong>(antidote_adjective)
+
+        <a class="method-permalink" href="#kaidokuzaios%28antidote_adjective%29-class-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>########################################################################################
+Pseudo Plural Class Gear                             #
+########################################################################################</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="manfra(format_adjective)-class-method">
+      <div class="signature">
+        
+        def self.<strong>manfra</strong>(format_adjective)
+
+        <a class="method-permalink" href="#manfra%28format_adjective%29-class-method">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+    <div class="entry-detail" id="qutarocaderos(format_adjective)-class-method">
+      <div class="signature">
+        
+        def self.<strong>qutarocaderos</strong>(format_adjective)
+
+        <a class="method-permalink" href="#qutarocaderos%28format_adjective%29-class-method">#</a>
+      </div>
+      
+        <div class="doc">
+          
+          <p>########################################################################################
+Format Of Narrative                                  #
+########################################################################################
+This refers to a four-frame manga like format styled kind 4-koma, but specialized in  #
+serious and morbid topics in ki-sho-ten-ketsu in a French dialect.                    #
+########################################################################################</p>
+        </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+
+
+
+  <h2>
+    <a id="macro-detail" class="anchor" href="#macro-detail">
+  <svg class="octicon-link" aria-hidden="true">
+    <use href="#octicon-link"/>
+  </svg>
+</a>
+    Macro Detail
+  </h2>
+  
+    <div class="entry-detail" id="define_method(name,content)-macro">
+      <div class="signature">
+        
+        macro <strong>define_method</strong>(name, content)
+
+        <a class="method-permalink" href="#define_method%28name%2Ccontent%29-macro">#</a>
+      </div>
+      
+      <br/>
+      <div>
+        
+      </div>
+    </div>
+  
+
+
+
+
+</div>
+
+</body>
+</html>
