@@ -15,3 +15,6 @@ This is made available for historical purposes, and may no reflect the final scr
 Awasunu is currently hosted in CrystalLang, while determining the viability of self-compiling. It is already self-interpreting.
 
 [CrystalLang 1.21](https://github.com/LWFlouisa/CrystalAwasunu)
+
+## Future
+The project is currently switching to a polyglot architecture where Crystal will be phased out, and a focus will be on ruby, python, lisp, lua, ada, and maybe spinel.
